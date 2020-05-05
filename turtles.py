@@ -1,8 +1,7 @@
 import turtle
 fred = turtle.Turtle()
-fred.color("red")
-fred.forward(100)
-fred.right(135)
-fred.forward(140)
-fred.right(135)
-fred.forward(100)
+fred.shape('turtle')
+fred.color("brown")
+for side in [1, 2, 3, 4, 5, 6]:
+    fred.forward(100)
+    fred.right(60)
